@@ -6,12 +6,12 @@ Write your code in this editor and press "Run" button to execute it.
 
 '''
 
-a=int(input())
-b=int(input())
-c=int(input())
-if a > b and a > c:
-    print(a)
-elif b > c and b > a:
-    print(b)
+i=int(input())
+j=int(input())
+k=int(input())
+if i > j and i > k:
+    print(i)
+elif j > k and j > k:
+    print(j)
 else:
-    print(c)
+    print(k)
