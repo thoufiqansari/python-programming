@@ -6,7 +6,7 @@ Write your code in this editor and press "Run" button to execute it.
 
 '''
 
-a=int(input())
-b=int(input())
-c=int(input())
-print(max(a,b,c))
+num1=int(input())
+num2=int(input())
+num3=int(input())
+print(max(num1,num2,num3))
