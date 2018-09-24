@@ -1,15 +1,15 @@
 '''
 
-                            Online Python Compiler.
-                Code, Compile, Run and Debug python program online.
-Write your code in this editor and press "Run" button to execute it.
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
 
 '''
-
-num=int(input("enter your number"))
-if num > 0:
-    print("positive")
-elif num == 0:
-    print("zero")
+ch=input()
+if(ch=="a" or ch=="e" or ch=="i" or ch=="o" or ch=="u"):
+    print("Vowel")
+elif ch>='a' and ch<='z':
+    print("Consonant")
 else:
-    print("negative")
+    print("invalid")
