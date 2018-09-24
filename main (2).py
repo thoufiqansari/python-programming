@@ -9,7 +9,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 ch=input()
 if(ch=="a" or ch=="e" or ch=="i" or ch=="o" or ch=="u"):
     print("Vowel")
-elif(ch>='a'and ch<='z')
+elif ch>='a'and ch<='z':
     print("Consonant")
 else:
     print("invalid")
