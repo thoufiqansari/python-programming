@@ -5,6 +5,6 @@
 Write your code in this editor and press "Run" button to execute it.
 
 '''
-n=int(input())
-p=int(input())
-print(n**p)
+w=int(input())
+r=int(input())
+print(w**r)
