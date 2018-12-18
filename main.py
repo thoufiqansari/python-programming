@@ -5,11 +5,6 @@
 Write your code in this editor and press "Run" button to execute it.
 
 '''
-
-num=int(input())
-if num%2==0:
-    print("Even")
-elif num%2!=0:
-    print("Odd")
-else:
-    print("invalid")
+n=int(input())
+p=int(input())
+print(n**p)
