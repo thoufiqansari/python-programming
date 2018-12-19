@@ -1,5 +1,6 @@
-k=input()
-lst = raw_input()
+k=int(input())
+lst =raw_input()
 lst = [int(k) for k in lst.split(' ')]
-print( min(lst))
+print( max(lst))
+
 
