@@ -1,6 +1,7 @@
 
 k=int(input())
-x=k
+t=k
+x=t
 lst =raw_input()
 lst = [int(k) for k in lst.split(' ')]
 lst.sort()
