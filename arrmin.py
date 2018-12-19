@@ -1,6 +1,5 @@
-lst = []
-p = int(input())
-for i in range(p):
-    num = int(input())
-    lst.append(num)
+k=input()
+lst = raw_input()
+lst = [int(k) for k in lst.split(' ')]
 print( min(lst))
+
