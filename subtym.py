@@ -1,10 +1,10 @@
 p,q=map(int,input().split(" "))
 m,n=map(int,input().split(" "))
 if(p<m or q<n):
-    a=m-p
-    b=n-q
-    print("a b-> %d %d" % (a,b))
+    x=m-p
+    y=n-q
+    print("%d %d" % (x,y))
 else:    
     a=p-m
     b=q-n
-    print("a b-> %d %d" % (a,b))
+    print("%d %d" % (x,y))
