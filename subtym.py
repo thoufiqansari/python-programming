@@ -5,6 +5,6 @@ if(p<m or q<n):
     y=n-q
     print("%d %d" % (x,y))
 else:    
-    a=p-m
-    b=q-n
+    x=p-m
+    y=q-n
     print("%d %d" % (x,y))
