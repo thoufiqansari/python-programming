@@ -1,2 +1,2 @@
-lst =input().split(' ')
-print( max(lst))
+p=list(map(int,input().split(' ')))
+print(max(p))
