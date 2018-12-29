@@ -1,3 +1,3 @@
-a,b = input().split(' ')
-a,b=a,b
-print(a,b)
+p,q = input().split(' ')
+p,q=q,p
+print(p,q)
